@@ -1,0 +1,166 @@
+
+/*-----font-style------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*-----font-style------*/
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+  width:1452px; 
+}
+/*-----header start------*/
+
+
+
+.header-area{width:1440px;height:677px;background-color:#2D25A0;
+
+}
+
+.header{
+    display: flex;  
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 156px;margin-top:150px;
+    padding-bottom:20px;
+    
+}
+
+.half-width img{ width: 50%;
+    width: 556.01px;
+    height: 438px;
+}
+
+
+.half-width img:hover{transform: skew(5deg,10deg);
+
+transition: transform 0.5s ease-in-out;}
+
+
+
+.heading{
+    font-size: 64px;
+    color: white;
+    width: 485px;
+    height: 230px;
+	padding-bottom:30px;
+	
+	
+}
+
+
+
+
+.half-width .link-button{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    background-color: #E02C6D;
+    padding: 8px 24px;
+    width: 168px;
+    height: 44px;
+	
+
+}
+
+
+ .fa-arrow-right{margin-left:20px}
+
+/*-----header end------*/
+
+
+
+/*----------------
+----------------------ALL PLAYER
+                            ------*/
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list{display:grid; 
+grid-template-columns:repeat(3,1fr);
+grid-row-gap: 30px;
+grid-gap:  30px;
+}
+
+
+.Player{ width:300px;
+height:456px;  
+padding:15px;
+box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.575);
+
+
+}
+
+
+
+
+.Photo img{width:300px;height:256px;
+width:100%;height:100%;margin-bottom:0px;
+}
+
+.name{width:300px;height:40px;
+font-size:20px; text-align:left;
+vertical-align:top;line-height:95%;
+line-height:40px;margin-top:16px;
+}
+
+
+.photo-detail{font-size:14px;
+vertical-align:top;}
+
+.all-player{margin-bottom:158px;margin-top:69px}
+
+/*----------------END
+----------------------ALL PLAYER
+                            ------*/
+
+
+/*----
+       Start --footer----*/
+ 
+ footer{display: flex;flex-direction: column;
+ align-items: center; margin-bottom: 20px;}
+ 
+.logo img{width: 483.87px;height: 110px;}
+ 
+ .icon a{font-size: 20px; width: 32px; height: 32px;
+ 
+ color:#969BAB;}
+ 
+ 
+ /*----
+     end --footer----*/
+	 
+	 
+	 
+	 /*------------------------------
+	                     mobail device-----------------*/
+						 
+						 
+						 
+@media only screen and(max-width:688px){
+	
+.player{grid-template-columns:repeat(1,fr);}
+	.player.player-text{flex-direction:column;
+	}
+	
+	
+	
+	
+}						 
+						 
